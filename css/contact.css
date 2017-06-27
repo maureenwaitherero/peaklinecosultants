@@ -1,0 +1,359 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Dosis:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:200);
+@import url(http://fonts.googleapis.com/css?family=Nixie+One);
+@font-face {
+font-family: MoskLight;
+
+src: url("../fonts/MoskLight.ttf") ;
+}
+
+@font-face {
+font-family: libel-suit-rg;
+
+src: url("../fonts/libel-suit-rg.ttf") ;
+}
+
+
+.font-head {
+    font-family: Nixie+One;
+    
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+
+
+.font-alt {
+    
+     font-family: "Inconsolata", serif;
+    text-align: center;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+
+.font-inc {
+    
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    color: #000;
+}
+
+.font-test {
+  margin: 5px 0;
+  font-family: "Lato";
+  background-color: #F0F0F0;
+  font-weight: 300;
+  font-size: 20px;
+  color: #333;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+
+.font-rale {
+    
+    font-family:libel-suit-rg;
+
+    text-align: center;
+    color: #000;
+    
+    font-size: 1.5em;
+     letter-spacing: 2px;
+}
+
+.font-ralep {
+    
+    font-family: Raleway;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.fontlib{
+  font-family: libel-suit-rg;
+  font-size: 1.2em;
+}
+
+/*Raleway*/
+@font-face {
+    font-family: Raleway-Regular;
+    src: url("../fonts/Raleway-Regular.ttf");
+}
+  #backs {
+    background-color: hsla(30, 99%, 45%, 0.58) !important
+  }
+  
+  .col {
+    color: #fcac45 !important
+  }
+  
+  #fuente {
+    font-family: 'Courgette', cursive;
+    color: #fcac45 !important
+  }
+  
+  body,
+  html {
+    font-family: Raleway-Regular;
+    /*font-family: 'Lato', sans-serif;*/
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    color: #5a5a5a;
+    background-color: #F0F0F0;
+
+  }
+  
+  
+  .section-title hr {
+    border-color: #015875;
+    border-width: 4px;
+    width: 60px;
+    float: left;
+    clear: both;
+  }
+  
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  
+  .clearfix {
+    display: inline-block;
+  }
+  
+  * html .clearfix {
+    height: 1%;
+  }
+  
+  .clearfix {
+    display: block;
+  }
+  
+  ul,
+  ol {
+    padding: 0;
+    webkit-padding: 0;
+    moz-padding: 0;
+  }
+
+
+
+ /* Navigation */
+  
+  #tf-menu {
+    padding: 10px;
+    
+    transition: all 0.8s;
+    background-color: white !important;
+  }
+  
+  #tf-menu.navbar-default {
+    background-color: rgba(248, 248, 248, 0);
+    border-color: rgba(231, 231, 231, 0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 2px 2px 0 rgba(0, 0, 0, 0.02);
+
+  }
+  
+  #tf-menu a.navbar-brand {
+   margin-top: 5px;
+   margin-bottom: 2.5px;
+    
+    font-size: 33px;
+    color: #333;
+    font-weight: 900;
+  }
+
+  #tf-menu.navbar-default .navbar-nav > li > a {
+    margin-top: 20px;
+    color: #777;  
+    font-family: Raleway-Regular;
+    font-size: 14px !important;
+    
+    
+  }
+
+  #tf-menu.navbar-default .navbar-nav > li > a:hover{
+    background-color: #F0F0F0;
+  }
+  
+  .on {
+    background-color: #222222 !important;
+    padding: 0 !important;
+  }
+
+  
+
+  .navbar-toggle {
+    border-radius: 0;
+  }
+  
+
+  
+  .navbar-default .navbar-toggle:hover>.icon-bar {
+    background-color: #FFF;
+  }
+
+
+ 
+  /* Contact Section */
+  
+  #tf-contact {
+    padding: 80px 0;
+    padding-top: 22vh;
+    height: auto;
+    font-size: 0.75em;
+
+  }
+  
+  label {
+    float: left;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  #tf-contact .form-control {
+    display: block;
+    width: 100%;
+    padding: 12px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+  
+  #tf-contact .form-control:focus {
+    border-color: inherit;
+    outline: 0;
+    -webkit-box-shadow: transparent;
+    box-shadow: transparent;
+  }
+  
+  button.btn.tf-btn.btn-default {
+    float: right;
+    background: #333;
+    border: 0;
+    border-radius: 0;
+    padding: 10px 40px;
+    color: #ffffff;
+    font-family: libel-suit-rg;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .btn:active,
+  .btn.active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  
+  .btn:focus,
+  .btn:active:focus,
+  .btn.active:focus,
+  .btn.focus,
+  .btn:active.focus,
+  .btn.active.focus {
+    outline: thin dotted;
+    outline: none;
+    outline-offset: none;
+  }
+  
+
+
+
+  /* Footer */
+  
+  nav#footer {
+    background: #222222;
+    color: #ffffff;
+
+
+    padding: 20px 0 15px 0;
+
+
+  }
+  
+  nav#footer .fnav {
+  font-family: Raleway-Regular;
+  }
+  
+  ul.footer-social li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav#footer p {
+   font-size: 12px !important;
+    margin-top: 10px;
+  }
+
+  .footer-icons{
+  float: right;
+}
+
+
+ .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+
+ .contactlinks a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+  .space{
+    margin-top: 30px;
+  }
+
+  .space1{
+    margin-top: 10px;
+  }
